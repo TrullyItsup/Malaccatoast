@@ -1,0 +1,20 @@
+:root{
+  --bg:#ffffff;--text:#1f2937;--muted:#6b7280;--radius:20px;--shadow:0 6px 24px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+.page{max-width:760px;margin:0 auto;padding:24px}
+.header{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;margin:20px 0 14px}
+.logo{width:96px;height:96px;border-radius:999px;object-fit:cover;box-shadow:var(--shadow)}
+.brand{font-size:28px;line-height:1.1;margin:10px 0 2px}
+.tagline{margin:0;color:var(--muted)}
+.hours{margin:.25rem 0 0;color:#111827}
+.links{display:grid;gap:16px;margin:20px 0}
+.card{display:block;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:transform .08s ease, box-shadow .2s ease;outline:none}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.card:active{transform:translateY(0)}
+.card img{display:block;width:100%;height:auto}
+.footer{display:flex;flex-direction:column;align-items:center;gap:8px;margin:24px 0 8px}
+.footer .powered{height:22px;opacity:.9}
+.footer .tiny{font-size:12px;color:var(--muted);margin:0}
+@media (min-width:768px){.brand{font-size:32px}}
