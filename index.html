@@ -6,15 +6,43 @@
   <title>Malacca Toast</title>
   <meta name="description" content="Malacca Toast Indonesia — Restoran dengan Menu Peranakan dengan cita rasa ala Indonesia." />
   <link rel="preconnect" href="https://image.typedream.com" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=3" />
 </head>
 <body>
   <main class="page">
-    <header class="header">
+    <header class="header hero">
+      <!-- Background gambar + animasi -->
+      <div class="hero-img" style="--hero:url('assets/img/b3.jpg')"></div>
+      <div class="hero-overlay"></div>
+
+      <!-- Konten header -->
       <img class="logo" src="https://image.typedream.com/cdn-cgi/image/width%3D384%2Cformat%3Dauto%2Cfit%3Dscale-down%2Cquality%3D100/https%3A//api.typedream.com/v0/document/public/34caec2d-e27d-41d4-af63-bafca913f04f/2a9Q3woOnELptNCuk3Osu2PpxO4_logo_malacca_bulat-01.png" alt="Logo Malacca Toast" />
       <h1 class="brand">Malacca Toast</h1>
       <p class="tagline">Indonesia · Restoran dengan Menu Peranakan dengan cita rasa ala Indonesia</p>
       <p class="hours">Buka: <strong>07.00 - 23.00</strong> · <span>Setiap Hari</span></p>
+
+      <!-- Tombol kecil WA & Member -->
+      <div class="quick-actions" aria-label="Quick actions">
+        <!-- Membership -->
+        <a class="qa qa-member"
+           href="https://lite.esbloop.co.id/Malaccatoast"
+           target="_blank" rel="noopener"
+           title="Membership" aria-label="Membership">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path fill="currentColor" d="M3 5h18a2 2 0 0 1 2 2v1H1V7a2 2 0 0 1 2-2zm-2 6h22v6a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-6zm4 5h6v-2H5v2z"/>
+          </svg>
+        </a>
+
+        <!-- WhatsApp -->
+        <a class="qa qa-wa"
+           href="https://api.whatsapp.com/send?phone=6281908088559"
+           target="_blank" rel="noopener"
+           title="WhatsApp" aria-label="WhatsApp">
+          <svg viewBox="0 0 32 32" width="18" height="18" aria-hidden="true">
+            <path fill="currentColor" d="M19.11 17.41c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.24-.46-2.36-1.46-.87-.78-1.46-1.74-1.63-2.03-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.5-.17 0-.37-.02-.57-.02-.2 0-.52.07-.8.37-.27.3-1.05 1.03-1.05 2.52 0 1.48 1.08 2.92 1.23 3.12.15.2 2.13 3.25 5.17 4.56.72.31 1.28.49 1.72.63.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.43.25-.71.25-1.31.17-1.44-.07-.13-.27-.2-.57-.35zM16.02 3c-7.18 0-13 5.82-13 13 0 2.29.6 4.45 1.65 6.32L3 29l6.86-1.8A12.95 12.95 0 0 0 16.02 29c7.18 0 13-5.82 13-13s-5.82-13-13-13z"/>
+          </svg>
+        </a>
+      </div>
     </header>
 
     <section class="links">
@@ -34,7 +62,6 @@
       <p class="tiny">Halaman statis replika untuk keperluan demo/offline.</p>
     </footer>
   </main>
-
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=3"></script>
 </body>
 </html>
